@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:white;
+	font-size: 12px;
+	color: gray;
+	font-family: "微软雅黑"；
+}
+
+
+.text{
+	width: 1204px;
+	margin:0 auto;
+}
+
+article{
+	text-align: center;
+	padding: 20px 90px;
+}
+
+.yc{
+	width: 1204px;
+	margin:0 auto;
+}

@@ -1,0 +1,66 @@
+html,body,div,p,h1,h2,h3,h4,h5,h6,ul,li,ol,a{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+
+}
+body{
+	font-size:12px;
+	font-family:"微软雅黑";
+	color: black;
+
+}
+li{
+	list-style:none;
+}
+.clear{
+	clear:both;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+}
+.wmysy{
+	width: 1170px;
+	margin: 0 auto;
+	font-size: 12px;
+	/*margin: 30px 0;*/
+}
+.w-p1{
+	margin-bottom: 30px;
+}
+.w-p2{
+	text-align: left;
+	line-height: 30px;
+	padding-top: 30px;
+}
+
+.w-bottom{
+	padding: 20px 0;
+	text-align: center;
+}
+.w-bottom1{
+	/*padding: 20px 0;*/
+	text-align: center;
+	color: #1aafd0;
+}
+
+.keai{
+	width: 1170px;
+	margin:0 auto;
+	padding: 20px 0;
+}
+.keai-1 img{
+	margin: 20px 0;
+}
+.p-3-img{
+	text-align: right;
+}
+.p-3-img2{
+	text-align:center;
+}
+
+

@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:white;
+	font-size: 12px;
+	color: gray;
+	font-family: "微软雅黑"；
+}
+
+
+.text{
+	width: 1204px;
+	margin:0 auto;
+	/*padding: 20px 0;*/
+	padding-bottom: 40px;
+	padding-top: 60px;
+}
+
+.box1 p{
+   text-align: center;
+}
+
+.box2 h2{
+   padding: 10px 20px;
+}
+
+.box2 h4{
+   padding: 10px 20px;
+}
+.box2 p{
+	padding: 10px 20px;
+}
+
+.yc{
+	width: 1204px;
+	margin:0 auto;
+	padding-top: 40px;
+}

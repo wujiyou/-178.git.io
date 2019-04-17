@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:white;
+	font-size: 12px;
+	color: gray;
+	font-family: "微软雅黑"；
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+li{
+	list-style: none;
+}
+
+.flex{
+	width: 100%;
+	/*overflow-y: scroll;*/
+	overflow-x: hidden;
+	overflow:hidden;
+
+}
+.head{
+	width:100%;
+	/*height: 100%;*/
+	min-width: 1204px;
+	display: flex;
+	justify-content: space-around;
+	flex: wrap;
+	/*position: relative;*/
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	background-color: #1AAFD0;
+	
+}
+.img{
+	z-index: 99;
+
+}
+.img img{
+     width: 150px;
+     height: auto;
+
+     /*line-height: 50px;*/
+}
+.oul{
+	display: flex;
+	justify-content: space-between;
+	line-height: 50px;
+    /*background: red;*/
+	height:66px;
+	z-index: 99;
+	
+	
+
+}
+/*.oul li{
+	font-size: 14px;
+	padding: 10px 30px;
+	color: black;
+	line-height: 66.14px
+}*/
+ 
+/*#oull{
+	position:absolute;
+	left:0;
+	top:40px;
+	width:150px; 
+	display:none;
+	background-color: white;
+	z-index: 999;
+}*/
+
+.oli a{
+	padding: 15px 0;
+	color:black;
+	 text-decoration: none;
+     color: white;
+}
+.oli a:hover{
+     border-bottom:2px solid red;
+     text-decoration: none;
+     color: white;
+}
+.banner{
+	/*position:relative;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	/*right: 0;*/
+	margin-top: 60px;
+	width:100%;
+	height: 500px;
+	min-width:1204px;
+    background-color: #1AAFD0;
+    /*position: relative;*/
+}
+
+.item img{
+	width: 100%;
+	margin:0 auto;
+}
+.righ{
+    right: 0 !important;
+    left: auto !important;
+     /*background-image: 0;*/
+}
+
+.ppp1{
+    position: absolute;
+    top:200px;
+    left:200px;
+    padding-top: 20px;
+    font-size: 16px;
+    z-index: 999;
+}
+
+.ppp1 span{
+	display: block;
+	line-height: 60px;
+	letter-spacing: 6px;
+	text-align: center;
+	color: white;
+}
+.span1{
+	font-size:40px;
+}
+.banner img{
+	width: auto;
+	/*height: 500px;
+	*/
+}
+
+.gh{
+	width: 1204px;
+	margin:0 auto;
+	text-align: center;
+}
+.tp{
+	margin:0 auto;
+	width: 1204px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.tp p{
+	text-align: center;
+}
+.tp p img{
+	border:1px solid #9999;
+	 box-shadow: darkgrey 1px 1px 10px 2px ;
+	 border-radius: 5px;
+}

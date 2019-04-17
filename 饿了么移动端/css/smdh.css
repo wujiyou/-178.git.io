@@ -1,0 +1,65 @@
+html,body,p,div,h1,h2,h3,h4,button,i,header,ul,li,a{
+	padding:0;
+	margin:0;
+}
+
+html{
+	font-size: 100px;
+	width: 100%;
+	/*height:auto;*/
+	overflow-x: hidden;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+	background-color:#F5F5F5;
+	font-family: "微软雅黑"；
+	/*font-size:0.12rem;*/
+}
+
+
+.top{
+	width: 100%;
+	background-color: white;
+	font-size: 0.12rem;
+	display: flex;
+	justify-content: space-around;
+	border-bottom:0.01rem solid #9999;
+	padding: 0.1rem 0 ;
+
+}
+
+.top h4{
+	font-weight:700;
+	font-size: 0.14rem;
+}
+
+.box img{
+	width: 100%;
+	height: 100%;
+}
+
+.box2 p{
+   /*line-height: 0.3rem;*/
+   padding-top: 0.15rem;
+   color: red;
+}
+
+.spann{
+	display: inline-block;
+	background-color: #05B2C2;
+	color: white;
+	font-size: 0.1rem;
+	padding: 0.02rem 0.02rem;
+	margin-left: 0.01rem;
+    border-radius: 10%;
+}
+
+.box3 span{
+	margin-top: 0.15rem;
+    display: inline-block;
+    border:0.01rem solid red;
+    border-radius: 10%;
+    padding: 0.01rem 0.05rem;
+    color: red;
+}
