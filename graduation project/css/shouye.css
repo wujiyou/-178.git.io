@@ -14,12 +14,13 @@ html, body {
     }
 a{
 	text-decoration: none;
-	color: white;
+	color:black;
 
 }
 
 a:hover{
 	text-decoration: none;
+	color:red;
 }
 li{
 	list-style: none;
@@ -63,6 +64,9 @@ li{
 .span1{
 	font-size:40px;
 }
+/* .head-top{
+	margin-top: 60px;
+} */
 .banner img{
 	width: auto;
 	/*height: 500px;
@@ -114,20 +118,11 @@ li{
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
-      /*position: relative;*/
-	/*background-color: red;*/
 }
 .swiper-slide{
 	width: 1204px;
 	margin:0 auto;
 }
-/*.swiper-pagination{
-	padding: 200px 0; 
-	margin-top: 80px;
-	position: absolute;
-	bottom:0px;
-
-}*/
 .wrap-1{
 	width: 1204px;
 	/*height: 200px;*/
@@ -141,6 +136,9 @@ li{
 	/*height: 200px;*/
 	background-color: #1aafd0;
 	border-radius: 5px;
+}
+.box1 p a{
+	color:white;
 }
 .box1 img{
 	width: 100%;

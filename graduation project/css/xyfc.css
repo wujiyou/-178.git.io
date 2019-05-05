@@ -74,6 +74,9 @@ li{
 .tp p{
 	text-align: center;
 }
+.top-img{
+	margin-top:20px;
+}
 .tp p img{
 	border:1px solid #9999;
 	 box-shadow: darkgrey 1px 1px 10px 2px ;

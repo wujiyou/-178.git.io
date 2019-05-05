@@ -13,6 +13,10 @@ a{
 	color:black !important;
 
 }
+a:hover{
+	text-decoration: none;
+	color:red;
+}
 li{
 	list-style: none;
 }
@@ -37,7 +41,7 @@ li{
 .oul{
 	display: flex;
 	justify-content: space-between;
-	line-height: 50px;
+	/* line-height: 50px; */
     /*background: red;*/
 	height:66px;
 	/*z-index: 99;*/
@@ -47,10 +51,10 @@ li{
 }
 .oli{
 	font-size: 14px;
-	padding: 10px 30px;
+	padding: 0px 30px;
 	color: white;
 	position: relative;
-	/*line-height: 66.14px*/
+	line-height: 66.14px
 }
 
 .oli a{
@@ -120,6 +124,7 @@ li{
 	/*position: relative;*/
 	position: fixed;
 	z-index: 999;
+	height: 67px;
 	top: 0;
 	background-color:white;
 	
