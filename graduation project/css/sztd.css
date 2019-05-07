@@ -1,3 +1,32 @@
 .top-1{
 	margin-top: 40px;
 }
+.sztd{
+	/* width: 225px; */
+	background:#1aafd0;
+	padding:10px 20px ; 
+	color:white !important;
+	height: 300px;
+}
+.zgdy{
+	display: inline-block;
+	padding: 20px 0;
+	text-align: left;
+	transform:scale(1);
+}
+h4{
+	padding: 15px 30px;
+    color: #ffb900;
+    font-size: 1.1em;
+    display: inline-block;
+	background: rgba(0, 0, 0, 0.84);
+	margin:0 !important;
+}
+.wjy-by{
+	color: #ffffff !important;
+    background: #1aafd0;
+    /* display: inline-block; */
+    padding: 3px 37px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}

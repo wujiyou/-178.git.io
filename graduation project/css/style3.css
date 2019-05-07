@@ -24,23 +24,56 @@ body{
 	line-height: 53px;
 	font-family: 'Courgette', cursive;
 }
-.rw-words{
+/* .rw-words{
 	display: inline;
-	text-indent: 10px;
+    text-indent: 10px;
+    overflow: hidden;
+} */
+.rw-words-1{
+    /* list-style: none; */
+    /* margin-left: -50px;   */
+    /* width:300px;  */
+    height:60px; 
+    overflow:hidden;
+    margin-top:-60px;
+    
 }
 .rw-words-1 span {
-    position: absolute;
-    opacity: 0;
+    width: 300px;
+    height: 60px; 
+    position: relative;
+    
+    line-height: 60px;
+    text-align:center;
+    color:#fff;
+    font-size: 30px;
+    display: block;
+    left:25px;
+    -webkit-animation: myfirst 5s infinite ;
+    -ms-animation: myfirst 5s infinite ;
+    animation: myfirst 5s infinite ;
+    /* top:100px; */
+    /* position: absolute; */
+    /* opacity: 0; */
     /*overflow: hidden;*/
-    color: #000000;
-    -webkit-transform-origin: 10% 75%;
-    transform-origin: 10% 75%;
-    -webkit-animation: rotateWord 18s linear infinite 0s;
-    -ms-animation: rotateWord 18s linear infinite 0s;
-    animation: rotateWord 18s linear infinite 0s;
-    text-transform: capitalize;
+    /* color: #000000; */
+    /* -webkit-transform-origin: 10% 75%;
+    transform-origin: 10% 75%; */
+    /* -webkit-animation: rotateWord 15s linear infinite 0s;
+    -ms-animation: rotateWord 15s linear infinite 0s;
+    animation: rotateWord 15s linear infinite 0s; */
+    /* text-transform: capitalize; */
 }
-.rw-words span:nth-child(2) { 
+@keyframes myfirst
+{
+	0%    {color:#804ef3;  top:0px;}
+	25%   {color:#f3e84e;  top:0px;}
+	50%  {color:#28ec0e; top:-60px;}
+	75%  {color:#310ef8; top:-120px;}
+	100%  {color:#dc143c; top:-180px;}
+
+}    
+/* .rw-words span:nth-child(2) { 
     -webkit-animation-delay: 3s; 
 	-ms-animation-delay: 3s; 
 	animation-delay: 3s; 
@@ -57,20 +90,20 @@ body{
 	-ms-animation-delay: 9s; 
 	animation-delay: 9s; 
 	color: #ffb900;
-}
-.rw-words span:nth-child(5) { 
+}  */
+/* .rw-words span:nth-child(5) { 
     -webkit-animation-delay: 12s; 
 	-ms-animation-delay: 12s; 
 	animation-delay: 12s; 
 	color: #000000;
-}
-.rw-words span:nth-child(6) { 
+} */
+/* .rw-words span:nth-child(6) { 
     -webkit-animation-delay: 15s; 
 	-ms-animation-delay: 15s; 
 	animation-delay: 15s; 
 	color: #ffb900;
 }
-@-webkit-keyframes rotateWord {
+/* @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
     5% { opacity: 1; }
     17% { opacity: 1; -webkit-transform: rotate(0deg); }
@@ -102,7 +135,7 @@ body{
 	25% { opacity: 0; -webkit-transform: translateY(170px) rotate(80deg); transform: translateY(170px) rotate(80deg); }
 	80% { opacity: 0; }
     100% { opacity: 0; }
-}
+} */
 @media screen and (max-width: 768px){
 	.rw-sentence { font-size: 1em; }
 }

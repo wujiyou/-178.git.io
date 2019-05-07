@@ -52,7 +52,14 @@ li{
 
 .p-1{
 	/*padding: 20px 0;*/
-	padding-top: 30px;
+	padding-top: 10px;
+	text-align: center;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.p-2{
+	/*padding: 20px 0;*/
+	padding-top: 50px;
 	text-align: center;
 	padding-left: 80px;
 	padding-right: 80px;
@@ -64,6 +71,7 @@ li{
 .jytp-1{
 	width: 100%;
 	min-width: 1204px;
+	
 
 }
 .sdjy{
@@ -71,9 +79,27 @@ li{
     margin:0 auto;
 }
 .p-y{
-	padding: 20px 5px;
+	padding: 30px 5px;
 	position: relative;
 	text-align: center;
+}
+.p-y1{
+	/* padding: 30px 5px; */
+	padding-bottom: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 30px;
+	position: relative;
+	text-align: center;
+}
+.p-y1 span{
+	display: inline-block;
+	background-color: #283df6;
+	position: absolute;
+	top:-30px;
+	left:35%;
+	padding: 10px 25px;
+	color:white;
 }
 .p-y span{
 	display: inline-block;
@@ -84,6 +110,7 @@ li{
 	padding: 10px 25px;
 	color:white;
 }
+
 .img2 p{
 	margin-top: 20px;
 	text-align: center;
@@ -95,9 +122,11 @@ li{
 .kcjs{
 	width: 1204px;
 	margin:0px auto;
+	/* padding-bottom: 80px; */
+
 }
 .tup1{
-	padding-top: 10px;
+	padding-top: 20px;
 }
 .tup1 p{
 	text-align: center;
@@ -107,7 +136,7 @@ li{
 }
 .qz{
 	width: 249px;
-	background-color:#8a9289;
+	background-color:#bcbebc;
 	/*opacity: 0.2;*/
 	padding: 2px 0;
 	color: white;
@@ -115,6 +144,8 @@ li{
 	position: absolute;
 	border-bottom-right-radius:15px;
     border-bottom-left-radius:15px;
-    top:130px;
-    left: 77px;
+    top:140px;
+    left: 76px;
 }
+
+

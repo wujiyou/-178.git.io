@@ -41,9 +41,19 @@ label{
 /*--banner-slider--*/
 .banner{
 	background:#1aafd0;
-	min-height:500px;
+	min-height:420px;
+	/* height:100%; */
 	position: relative;
 	margin-bottom:3.3em;
+	/* background-image: url(../images/mbdq.jpg); */
+	/* background-size:100%; */
+}
+.banner-img-w3layouts {
+    width: 40%;
+    float: left;
+    background: url(../images/bann-img.png)no-repeat 0px 20px;
+    min-height: 354px;
+    background-size: 443px;
 }
 
 .navbar-header h1 {
@@ -673,7 +683,7 @@ p.para-w3layouts {
     width: 35%;
     background: rgba(0, 0, 0, 0.62);
     position: absolute;
-    z-index: 999;
+    z-index: 99;
     top: 15em;
 }
 .banner_bottom_right {
@@ -761,13 +771,7 @@ p.para-w3layouts {
     -ms-transition: 0.5s all;
 	font-family: 'Roboto Condensed', sans-serif;
 }
-.banner-img-w3layouts {
-    width: 40%;
-    float: left;
-    background: url(../images/bann-img.png)no-repeat 0px 0px;
-    min-height: 354px;
-    background-size: 443px;
-}
+
 /*-- //banner-bottom --*/
 
 
@@ -997,7 +1001,7 @@ p.para-w3layouts {
     color: #ffffff;
     background: #1aafd0;
     display: inline-block;
-    padding: 3px 39px;
+    padding: 3px 37px;
     font-size: 15px;
     letter-spacing: 1px;
 }
