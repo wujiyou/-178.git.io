@@ -122,3 +122,19 @@ li{
 	color: #ea58a9;
 	font-size: 40px;
 }
+
+.wjy-hover{
+	display: inline-block;
+	position: absolute;
+	top:180px;
+	 left:35%;
+	 background-color: #66CDCC;
+	 padding: 10px 30px;
+	  color: white;
+	  cursor: pointer;
+}
+
+.wjy-hover:hover{
+	 background-color: orange;
+	 color:white;
+}
