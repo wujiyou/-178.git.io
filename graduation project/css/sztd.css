@@ -3,10 +3,10 @@
 }
 .sztd{
 	/* width: 225px; */
-	background:#1aafd0;
+	background:#66CDCC;
 	padding:10px 20px ; 
 	color:white !important;
-	height: 300px;
+	height: 330px;
 }
 .zgdy{
 	display: inline-block;
@@ -24,7 +24,7 @@ h4{
 }
 .wjy-by{
 	color: #ffffff !important;
-    background: #1aafd0;
+    background: #66CDCC;
     /* display: inline-block; */
     padding: 3px 37px;
     font-size: 15px;

@@ -29,6 +29,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/top2.css">
 <link rel="stylesheet" type="text/css" href="css/sztd.css">
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/osSlider.css" />
 </head>
 <body>
         <!-- 导航栏 -->
@@ -58,9 +60,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 			</header>
 
-			
+			<div class="htmleaf-container wy-1">
+				<div class="slider">
+					<ul class="slider-main">
+						<li>
+							<img src="images/bg-1.jpg" alt="">
+						</li>
+						<li>
+							<img src="images/bg-2.jpg" alt="">
+						</li>
+						<li>
+							<img src="images/bg-5.png" alt="">
+						</li>
+						<li>
+							<img src="images/bg-4.png" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+
 	        <!-- banner -->
-			<div class="container head-top">
+			<!-- <div class="container head-top">
 				<div class="rw-wrapper">
 						<div class="rw-sentence">
 							<span>美好愿景:</span>
@@ -83,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				
 			</div>
-		</div>
+		</div> -->
 
         <!-- 师资团队 -->
 		<div class="team" id="team">
@@ -384,7 +404,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 		</div>
 		
-        
+        <div style="clear:both;"></div>
 
          <!-- 尾部 -->
 		 <div class="footer">
@@ -401,12 +421,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 		
 		
-		<!-- <script type="text/javascript">
-			$(function() {
-			
-				$('.filtr-container').filterizr();
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+		<!-- <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script> -->
+		<script src="js/osSlider.js"></script>
+		<script type="text/javascript">
+			var slider = new osSlider({ //开始创建效果
+				pNode:'.slider', //容器的选择器 必填
+				cNode:'.slider-main li', //轮播体的选择器 必填
+				speed:3000, //速度 默认3000 可不填写
+				autoPlay:true //是否自动播放 默认true 可不填写
 			});
-		</script> -->
+		</script>
 		<script src="js/jquery-2.2.3.min.js"></script>
 		<script>
 		     $(function() {

@@ -85,7 +85,7 @@ li{
 	line-height: 40px;
 }
 .content p{
-	color: #1aafd0;
+	color: #66CDCC;
 }
 
 .swiper-container{
@@ -128,7 +128,7 @@ li{
 .box1{
 	width: 250px;
 	/*height: 200px;*/
-	background-color: #1aafd0;
+	background-color: #66CDCC;
 	border-radius: 5px;
 }
 .box1 p a{
@@ -142,7 +142,7 @@ li{
 }
 
 .box1 p{
-	background-color:#1aafd0;
+	background-color:#66CDCC;
 	text-align: center;
 	line-height: 30px;
 	border-bottom-right-radius :8px;
@@ -223,7 +223,7 @@ li{
 
 }
 .p1{
-	background-color: #1aafd0;
+	background-color: #66CDCC;
 	color: white;
 	margin-left: 10px;
 	padding: 10px 10px 10px 15px;

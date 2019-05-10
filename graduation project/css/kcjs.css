@@ -52,7 +52,7 @@ li{
 
 .p-1{
 	/*padding: 20px 0;*/
-	padding-top: 10px;
+	/* padding-top: 10px; */
 	text-align: center;
 	padding-left: 80px;
 	padding-right: 80px;
@@ -94,7 +94,7 @@ li{
 }
 .p-y1 span{
 	display: inline-block;
-	background-color: #283df6;
+	background-color: #66CDCC;
 	position: absolute;
 	top:-30px;
 	left:35%;
@@ -103,7 +103,7 @@ li{
 }
 .p-y span{
 	display: inline-block;
-	background-color: #283df6;
+	background-color: #66CDCC;
 	position: absolute;
 	top:-30px;
 	left:35%;
@@ -127,6 +127,7 @@ li{
 }
 .tup1{
 	padding-top: 20px;
+	padding-bottom: 10px;
 }
 .tup1 p{
 	text-align: center;
@@ -136,7 +137,7 @@ li{
 }
 .qz{
 	width: 249px;
-	background-color:#bcbebc;
+	background-color:#66CDCC;
 	/*opacity: 0.2;*/
 	padding: 2px 0;
 	color: white;

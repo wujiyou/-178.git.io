@@ -39,14 +39,14 @@ label{
 	margin:0;
 }
 /*--banner-slider--*/
-.banner{
+/* .banner{
 	background:#1aafd0;
 	min-height:420px;
-	/* height:100%; */
+	height:100%;
 	position: relative;
 	margin-bottom:3.3em;
-	/* background-image: url(../images/mbdq.jpg); */
-	/* background-size:100%; */
+	background-image: url(../images/mbdq.jpg);
+	background-size:100%;
 }
 .banner-img-w3layouts {
     width: 40%;
@@ -54,7 +54,7 @@ label{
     background: url(../images/bann-img.png)no-repeat 0px 20px;
     min-height: 354px;
     background-size: 443px;
-}
+} */
 
 .navbar-header h1 {
     margin: 0;
@@ -684,7 +684,7 @@ p.para-w3layouts {
     background: rgba(0, 0, 0, 0.62);
     position: absolute;
     z-index: 99;
-    top: 15em;
+    top: 8em;
 }
 .banner_bottom_right {
     background: url(../images/about.jpg)no-repeat 0px 0px;
@@ -702,7 +702,7 @@ p.para-w3layouts {
     text-decoration: none;
     color: #fff;
     padding: 10px 30px;
-    background: #1aafd0;
+    background:#66CDCC;
     margin-top: 1.2em;
     display: inline-block;
 	font-size: 16px;
@@ -819,7 +819,7 @@ p.para-w3layouts {
 /*--newsletter-section--*/
 .support_three_grids {
     padding: 3em 0em;
-    background: #000;
+    background: #66CDCC;
 }
 .agileinfo_support_three_grids_left p {
     font-family: 'Roboto Condensed', sans-serif;
@@ -828,7 +828,7 @@ p.para-w3layouts {
     letter-spacing: 4px;
 	text-align: right;
     font-weight: 700;
-    color: #7b7b7b;
+    color:;
     text-transform: capitalize;
 }
 .agileinfo_support_three_grids_right input[type="email"]{
@@ -849,7 +849,7 @@ p.para-w3layouts {
     color: #fff;
     border: none;
     outline: none;
-    width: 25%;
+    width: 24%;
     margin-left: -4px;
     padding: 10px 0px;
     -webkit-appearance: none;
@@ -864,7 +864,7 @@ p.para-w3layouts {
     -ms-transition: 0.5s all;
 }
 .book-form input[type="submit"]:hover,.agileinfo_support_three_grids_right input[type="submit"]:hover {
-	background: #1aafd0;
+	background: #66CDCC;
 }
 /*--//newsletter-section--*/
 /*--events-section--*/
@@ -907,7 +907,7 @@ p.para-w3layouts {
 .event-info-wthree,.event-opp {
     width: 50%;
     float: left;
-    padding: 2em 2.5em;
+    padding: 1em 2.5em;
 	position:relative;
 }
 .event-info-wthree:after {
@@ -1267,7 +1267,7 @@ figure img {
 /*-- mail --*/
 .contact {
     position: relative;
-	background:#1aafd0;
+	background:#66CDCC;
    width: 1204px;
    margin:0 auto;
 }
@@ -1275,7 +1275,7 @@ figure img {
     position: absolute;
     width: 40%;
     right: 7em;
-    top: 4em;
+    top: 2em;
     padding: 6em 4em;
     background: #f8f8f8;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -1412,7 +1412,8 @@ figure img {
 
     padding: 10em 13em 6em 5em;
     background: #000000;
-    width: 60%;
+	width: 60%;
+	margin-top:40px;
 }
 /*-- //mail --*/
 /*--footer--*/
